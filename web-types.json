@@ -1,0 +1,36 @@
+{
+  "$schema": "./web-types-schema.json",
+  "name": "web-types-webcomponent1",
+  "default-icon": "icons/lit.png",
+  "js-types-syntax": "typescript",
+  "version": "0.1.0",
+  "contributions": {
+    "html": {
+      "elements": [
+        {
+          "name": "simple-greeting",
+          "description": "An example component to showcase web-types capabilities",
+          "attributes": [
+            {
+              "name": "name",
+              "description": "user name",
+              "value": {
+                "kind": "plain",
+                "required": true
+              }
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "name": "@click",
+          "description": "Lit click event",
+          "value": {
+            "kind": "expression"
+          }
+        }
+      ]
+    }
+  }
+}
