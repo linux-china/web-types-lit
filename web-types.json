@@ -29,6 +29,13 @@
           "value": {
             "kind": "expression"
           }
+        },
+        {
+          "name": "@input",
+          "description": "Lit input event",
+          "value": {
+            "kind": "expression"
+          }
         }
       ]
     }
