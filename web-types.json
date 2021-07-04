@@ -15,7 +15,7 @@
               "name": "name",
               "description": "user name",
               "value": {
-                "kind": "plain",
+                "type": "string",
                 "required": true
               }
             }
@@ -24,17 +24,17 @@
       ],
       "attributes": [
         {
-          "name": "@click",
+          "name": "event handler",
           "description": "Lit click event",
           "value": {
             "kind": "expression"
-          }
-        },
-        {
-          "name": "@input",
-          "description": "Lit input event",
-          "value": {
-            "kind": "expression"
+          },
+          "pattern": {
+            "items": "/html/events",
+            "template": [
+              "@",
+              "#item"
+            ]
           }
         }
       ]
