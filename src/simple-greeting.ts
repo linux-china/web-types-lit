@@ -12,12 +12,12 @@ export class SimpleGreeting extends LitElement {
 
     render() {
         return html`<p>Hello, ${this.name}!</p>
-        <button @click=${this.clickButton}>click</button>
+        <button @click="${this.clickButton}">click</button>
         <input placeholder="Enter your name" @input=${this.changeName}>
         `;
     }
 
-    clickButton(event: Event) {
+    clickButton(_event: Event) {
         this.name = 'Clicked';
     }
 
