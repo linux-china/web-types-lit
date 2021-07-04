@@ -1,0 +1,20 @@
+{
+  "name": "web-types-webcomponent1",
+  "version": "0.1.0",
+  "description": "web types for Lit Webcomponent ",
+  "web-types": [
+    "./web-types.json"
+  ],
+  "scripts": {
+    "bundle": "esbuild --bundle simple-greeting.ts --outfile=dist/bundle.js --sourcemap",
+    "clean": "rm dist/*"
+  },
+  "author": "linux_china <libing.chen@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.14"
+  }
+}
