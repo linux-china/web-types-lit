@@ -29,7 +29,7 @@
           "doc-url": "https://lit.dev/docs/templates/expressions/#event-listener-expressions",
           "value": {
             "kind": "expression",
-            "type": "void"
+            "type": "(event: Event) => void"
           },
           "pattern": {
             "items": "/html/events",
