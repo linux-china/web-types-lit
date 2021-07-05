@@ -1,13 +1,11 @@
-Web-types Lit WebComponent demo
-===========
+Web-types for Lit
+================
 
 Web-types: a framework-agnostic standard to provide IDEs and other tools with metadata information about contents of a web components library.
 
-# items for pattern
+# How to use?
 
-* /html/events: event name, such click, input etc
-* /html/attributes: tag's attribute, such src, href, style etc
-* /html/elements: html tags name
+Please install last WebStorm and execute `npm i web-types-lit -D` for your Lit project.
 
 # References
 
