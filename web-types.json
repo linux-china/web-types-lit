@@ -24,8 +24,9 @@
       ],
       "attributes": [
         {
-          "name": "event handler",
-          "description": "Lit click event",
+          "name": "Event listeners",
+          "description": "Event listeners expression",
+          "doc-url": "https://lit.dev/docs/templates/expressions/#event-listener-expressions",
           "value": {
             "kind": "expression",
             "type": "void"
@@ -34,6 +35,38 @@
             "items": "/html/events",
             "template": [
               "@",
+              "#item:event name"
+            ]
+          }
+        },
+        {
+          "name": "Boolean Attributes",
+          "description": "Boolean Attributes expression",
+          "doc-url": "https://lit.dev/docs/templates/expressions/#boolean-attribute-expressions",
+          "value": {
+            "kind": "expression",
+            "type": "boolean"
+          },
+          "pattern": {
+            "items": "/html/attributes",
+            "template": [
+              "?",
+              "#item:attribute name"
+            ]
+          }
+        },
+        {
+          "name": "Properties",
+          "description": "Properties expression",
+          "doc-url": "https://lit.dev/docs/templates/expressions/#property-expressions",
+          "value": {
+            "kind": "expression",
+            "type": "any"
+          },
+          "pattern": {
+            "items": "/html/attributes",
+            "template": [
+              ".",
               "#item:event name"
             ]
           }
