@@ -5,16 +5,16 @@
   "web-types": [
     "./web-types.json"
   ],
-  "scripts": {
-    "start": "web-dev-server --open dev/ --node-resolve",
-    "start:watch": "web-dev-server --open dev/ --node-resolve --watch",
-    "bundle": "esbuild --bundle src/simple-greeting.ts --outfile=dist/bundle.js --sourcemap",
-    "clean": "rm dist/*"
-  },
   "author": "linux_china <libing.chen@gmail.com>",
+  "repository": "https://github.com/linux-china/web-types-lit",
   "license": "ISC",
   "dependencies": {
     "lit": "^2.0.0-rc.2"
+  },
+  "scripts": {
+    "start": "web-dev-server --open dev/ --node-resolve",
+    "start:watch": "web-dev-server --open dev/ --node-resolve --watch",
+    "bundle": "esbuild --bundle src/simple-greeting.ts --outfile=dist/bundle.js --sourcemap"
   },
   "devDependencies": {
     "@types/node": "^16.0.0",
