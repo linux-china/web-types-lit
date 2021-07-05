@@ -27,13 +27,14 @@
           "name": "event handler",
           "description": "Lit click event",
           "value": {
-            "kind": "expression"
+            "kind": "expression",
+            "type": "void"
           },
           "pattern": {
             "items": "/html/events",
             "template": [
               "@",
-              "#item"
+              "#item:event name"
             ]
           }
         }
