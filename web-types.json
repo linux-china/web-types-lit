@@ -67,7 +67,7 @@
             "items": "/html/attributes",
             "template": [
               ".",
-              "#item:event name"
+              "#item:property name"
             ]
           }
         }
