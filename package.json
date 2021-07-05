@@ -1,7 +1,7 @@
 {
-  "name": "web-types-webcomponent1",
+  "name": "web-types-lit",
   "version": "0.1.0",
-  "description": "web types for Lit Webcomponent ",
+  "description": "Web-types for Lit Web Components",
   "web-types": [
     "./web-types.json"
   ],
