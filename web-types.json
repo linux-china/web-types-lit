@@ -4,6 +4,20 @@
   "default-icon": "icons/lit.png",
   "js-types-syntax": "typescript",
   "version": "0.1.0",
+  "framework": "lit",
+  "framework-config": {
+    "enable-when": {
+      "node-packages": [
+        "lit"
+      ],
+      "file-extensions": [
+        "ts",
+        "js",
+        "tsx",
+        "jsx"
+      ]
+    }
+  },
   "contributions": {
     "html": {
       "elements": [
